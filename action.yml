@@ -34,7 +34,6 @@ inputs:
 outputs:
   action_fruit:
     description: 'some output'
-    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
