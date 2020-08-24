@@ -31,6 +31,9 @@ inputs:
   routes_location:
     description: 'Directory location where the routes.json file can be found in the source code'
     required: false
+outputs:
+  static_web_app_deploy_url:
+    description: 'Site url'
 runs:
   using: 'docker'
   image: 'Dockerfile'
