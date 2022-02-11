@@ -1,5 +1,4 @@
-FROM mcr.microsoft.com/appsvc/staticappsclient:latest
-
+FROM mcr.microsoft.com/appsvc/staticappsclient:stable
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
 
